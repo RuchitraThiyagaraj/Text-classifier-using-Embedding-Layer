@@ -104,7 +104,7 @@ print(f"There are {train_dataset.cardinality()} sentence-label pairs for trainin
 print(f"There are {validation_dataset.cardinality()} sentence-label pairs for validation.\n")
      
 ```
-![image](https://github.com/user-attachments/assets/62427792-24b4-4ca5-be86-10615feb7b74)
+![image](https://github.com/user-attachments/assets/bb23bb38-a933-40e4-96f6-96952dc37f52)
 
 
 ### Standardize the Function:
@@ -159,8 +159,7 @@ print('Name:  T.RUCHITRA     Register Number: 212223110043  ')
 print(f"Vocabulary contains {vocab_size} words\n")
      
 ```
-![image](https://github.com/user-attachments/assets/c4bdae74-63b8-4341-a1c4-e8f4245ee1d5)
-
+![image](https://github.com/user-attachments/assets/01892f3e-4e53-4d82-a94b-3f03ee138fc4)
 
 ### Label encoder Function:
 ```
