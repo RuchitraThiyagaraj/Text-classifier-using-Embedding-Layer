@@ -104,9 +104,7 @@ print(f"There are {train_dataset.cardinality()} sentence-label pairs for trainin
 print(f"There are {validation_dataset.cardinality()} sentence-label pairs for validation.\n")
      
 ```
-
-![image](https://github.com/user-attachments/assets/119abcbe-6b40-45da-9b42-b6f3e6bb3d41)
-
+![image](https://github.com/user-attachments/assets/62427792-24b4-4ca5-be86-10615feb7b74)
 
 
 ### Standardize the Function:
@@ -161,9 +159,7 @@ print('Name:  T.RUCHITRA     Register Number: 212223110043  ')
 print(f"Vocabulary contains {vocab_size} words\n")
      
 ```
-
-![image](https://github.com/user-attachments/assets/b90d4e65-761c-44f0-a3b3-a5f22a06df48)
-
+![image](https://github.com/user-attachments/assets/c4bdae74-63b8-4341-a1c4-e8f4245ee1d5)
 
 
 ### Label encoder Function:
@@ -181,8 +177,9 @@ def fit_label_encoder(train_labels, validation_labels):
     
     
     return label_encoder
-
 ```
+![image](https://github.com/user-attachments/assets/614e99ac-ded2-4007-a095-7108f2fa5eec)
+
 ### Create the label Encoder:
 ```
 # Create the label encoder
@@ -193,10 +190,6 @@ label_encoder = fit_label_encoder(train_labels_only,validation_labels_only)
 print('Name:  T.RUCHITRA     Register Number: 212223110043  ')
 print(f'Unique labels: {label_encoder.get_vocabulary()}')
 ```
-
-![image](https://github.com/user-attachments/assets/7bd13c54-7de6-4df7-8b94-e87a9ff01811)
-
-
 
 ### Preprocess the data function:
 ```
