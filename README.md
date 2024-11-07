@@ -64,8 +64,6 @@ data = np.loadtxt(data_dir, delimiter=',', skiprows=1, dtype='str', comments=Non
 print(f"Shape of the data: {data.shape}")
 print(f"{data[0]}\n{data[1]}")
 ```
-![image](https://github.com/user-attachments/assets/62f52953-f6ab-4766-95b5-cd5057dc326e)
-
 
 ### Check for the labels of the data:
 ```
@@ -74,8 +72,6 @@ print(f"There are {len(data)} sentence-label pairs in the dataset.\n")
 print(f"First sentence has {len((data[0,1]).split())} words.\n")
 print(f"The first 5 labels are {data[:5,2]}")
 ```
-
-![image](https://github.com/user-attachments/assets/c5e6f016-d1dc-427f-ae45-720ac8c1cb28)
 
 ### Training and validating the dataset:
 ```
