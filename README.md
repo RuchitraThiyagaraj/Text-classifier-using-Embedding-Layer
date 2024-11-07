@@ -177,7 +177,6 @@ def fit_label_encoder(train_labels, validation_labels):
     
     return label_encoder
 ```
-![image](https://github.com/user-attachments/assets/614e99ac-ded2-4007-a095-7108f2fa5eec)
 
 ### Create the label Encoder:
 ```
@@ -189,6 +188,7 @@ label_encoder = fit_label_encoder(train_labels_only,validation_labels_only)
 print('Name:  T.RUCHITRA     Register Number: 212223110043  ')
 print(f'Unique labels: {label_encoder.get_vocabulary()}')
 ```
+![image](https://github.com/user-attachments/assets/0a580bb7-dcc1-4c47-a70e-61bdccfd9ad4)
 
 ### Preprocess the data function:
 ```
@@ -214,7 +214,7 @@ print('Name:  T.RUCHITRA     Register Number: 212223110043  ')
 print(f"Shape of the train batch: {train_batch[0].shape}")
 print(f"Shape of the validation batch: {validation_batch[0].shape}")
 ```
-
+![image](https://github.com/user-attachments/assets/e08855dd-c889-43d3-98f8-138c778ce06f)
 
 ### Create Model:
 ```
@@ -273,10 +273,9 @@ plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
 ```
 ### Name: T.RUCHITRA
-
 ### Register Number: 212223110043
 
 ## OUTPUT:
 ### Loss, Accuracy Vs Iteration Plot
 
-![Untitled](https://github.com/user-attachments/assets/e067a81c-1259-4031-b35c-daa2caaf68b2)
+![image](https://github.com/user-attachments/assets/6d4ea9cd-7983-4f40-b652-a5a7f421537a)
